@@ -37,3 +37,10 @@ A new flutter app for demonstrating Weather Info. This App is showing current te
     <td><img src="https://github.com/MarvelApps-Flutter/weather_info/blob/dev/screenshots/ios/ios6.png" height="480px"></td>
   </tr>
  </table>
+
+ # Demo
+  <table>
+  <tr>
+  <td><img src="https://github.com/MarvelApps-Flutter/webview_demo/blob/dev/working_demo/weather_info.gif" height="480px"></td>
+    </tr>
+  </table>
