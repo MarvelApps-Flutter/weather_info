@@ -1,16 +1,39 @@
-# weather_app
+# Flutter Weather Info Module
+A new flutter app for demonstrating Weather Info. This App is showing current temeperature and other details like chnaces of precipitation, humidity, wind etc. The app is using 
 
-A new Flutter project.
+# Android Screenshots
 
-## Getting Started
+<table>
+  <tr>
+    <td><img src="https://github.com/MarvelApps-Flutter/weather_info/blob/dev/screenshots/android/android1.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/weather_info/blob/dev/screenshots/android/android2.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/weather_info/blob/dev/screenshots/android/android3.png" height="480px"></td>
+  </tr>
+ </table>
 
-This project is a starting point for a Flutter application.
+<table>
+  <tr>
+    <td><img src="https://github.com/MarvelApps-Flutter/weather_info/blob/dev/screenshots/android/android4.png" height="480px"></td>
+    
+  </tr>
+ </table>
 
-A few resources to get you started if this is your first Flutter project:
+</br>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# IOS Screenshots
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<table>
+  <tr>
+    <td><img src="https://github.com/MarvelApps-Flutter/weather_info/blob/dev/screenshots/ios/ios1.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/weather_info/blob/dev/screenshots/ios/ios2.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/weather_info/blob/dev/screenshots/ios/ios3.png" height="480px"></td>
+  </tr>
+ </table>
+
+<table>
+  <tr>
+    <td><img src="https://github.com/MarvelApps-Flutter/weather_info/blob/dev/screenshots/ios/ios4.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/weather_info/blob/dev/screenshots/ios/ios5.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/weather_info/blob/dev/screenshots/ios/ios6.png" height="480px"></td>
+  </tr>
+ </table>
