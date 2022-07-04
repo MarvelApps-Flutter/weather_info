@@ -1,0 +1,105 @@
+{"coord":{"lon":77.2167,"lat":28.6667},
+"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],
+"base":"stations","main":{"temp":35.05,"feels_like":36.72,"temp_min":35.05,"temp_max":35.05,"pressure":1001,"humidity":38},
+"visibility":3000,"wind":{"speed":3.03,"deg":272,"gust":3.92},"clouds":{"all":40},"dt":1622990729,
+"sys":{"type":1,"id":9165,"country":"IN","sunrise":1622937178,"sunset":1622987215},"timezone":19800,
+"id":1273294,"name":"Delhi","cod":200}
+
+
+
+
+
+Container(
+          padding: EdgeInsets.only(left: 20, right: 20, top: 30),
+          height: MediaQuery.of(context).size.height,
+          width: MediaQuery.of(context).size.width,
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              fit: BoxFit.fill,
+              image: AssetImage("assets/morning.jpg"),
+            ),
+          ),
+          child: Column(
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  SvgPicture.asset("assets/cloud.svg",
+                      color: Colors.white, height: 50, width: 50),
+                  Text(weather[0].cityName,
+                      style: TextStyle(color: Colors.white, fontSize: 20)),
+                  Spacer(),
+                  SvgPicture.asset("assets/wind.svg",
+                      color: Colors.white, height: 50, width: 50),
+                  Text("3.1 m/s",
+                      style: TextStyle(color: Colors.white, fontSize: 20)),
+                  Spacer(),
+                  SvgPicture.asset("assets/humidity.svg",
+                      color: Colors.white, height: 50, width: 50),
+                  Text("86 %",
+                      style: TextStyle(color: Colors.white, fontSize: 20)),
+                ],
+              ),
+
+              /***COLUMN Started */
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    "4",
+                    style: TextStyle(fontSize: 150, color: Colors.white),
+                  ),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Text(
+                        "\u00b0C",
+                        style: TextStyle(fontSize: 40, color: Colors.white),
+                      ),
+                      SizedBox(height: 5),
+                      Row(
+                        children: [
+                          SvgPicture.asset("assets/high.svg",
+                              color: Colors.white, height: 20, width: 20),
+                          Text(
+                            "4\u00b0C",
+                            style: TextStyle(fontSize: 15, color: Colors.white),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          SvgPicture.asset("assets/low.svg",
+                              color: Colors.white, height: 20, width: 20),
+                          Text(
+                            "4\u00b0C",
+                            style: TextStyle(fontSize: 15, color: Colors.white),
+                          ),
+                        ],
+                      )
+                    ],
+                  )
+                ],
+              ),
+
+              /******COLUMN */
+              Column(
+                children: [
+                  Text(
+                    "London, GB",
+                    style: TextStyle(color: Colors.white, fontSize: 30),
+                  ),
+                  Text(
+                    "Haze",
+                    style: TextStyle(color: Colors.white, fontSize: 20),
+                  ),
+                  SvgPicture.asset(
+                    "assets/weather/cloudy.svg",
+                    color: Colors.white,
+                    height: 150,
+                    width: 150,
+                  )
+                ],
+              )
+            ],
+          ),
