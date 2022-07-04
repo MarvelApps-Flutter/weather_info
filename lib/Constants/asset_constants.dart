@@ -8,4 +8,6 @@ class AssetConstants {
   static const String cloudyWeatherIcon = "assets/weather/cloudy.svg";
   static const String fiveDaysWeatherBackgroundImage =
       "assets/night_weather_image.jpeg";
+  static const String successiveLogo = "assets/images/successive_logo.png";
+  static const String marvelLogo = "assets/images/marvel_logo.png";
 }

@@ -1,0 +1,4 @@
+#Tue Jun 28 10:56:56 IST 2022
+base.0=/Users/jigyasachaudhary/Desktop/Marvel Apps/weather_info/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

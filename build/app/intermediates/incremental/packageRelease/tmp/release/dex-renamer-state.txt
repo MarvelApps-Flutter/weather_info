@@ -1,0 +1,4 @@
+#Tue Jun 28 10:55:17 IST 2022
+base.0=/Users/jigyasachaudhary/Desktop/Marvel Apps/weather_info/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

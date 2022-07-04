@@ -312,7 +312,7 @@ class _WeatherPageState extends State<WeatherPage> {
                           margin: EdgeInsets.symmetric(vertical: 8),
                           padding: EdgeInsets.symmetric(
                               vertical: 10, horizontal: 12),
-                          height: MediaQuery.of(context).size.height * 0.15,
+                          height: MediaQuery.of(context).size.height * 0.18,
                           width: MediaQuery.of(context).size.width * 0.5,
                           decoration: BoxDecoration(
                               image: DecorationImage(
